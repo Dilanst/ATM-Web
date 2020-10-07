@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 297.392 s <<< FAILURE! - in TestSuite
+com.google.search.test.SearchTest.clickElementSearched  Time elapsed: 30.093 s  <<< FAILURE!
+java.lang.AssertionError: First element   expected [] but found [The Name of the Wind - Wikipedia]
+	at com.google.search.test.SearchTest.clickElementSearched(SearchTest.java:93)
+
+com.google.search.test.SearchTest.clickElementSearched  Time elapsed: 2.781 s  <<< FAILURE!
+java.lang.AssertionError: First element   expected [The Name of the Wind - Wikipedia] but found [The Name of the Wind - Patrick Rothfuss]
+	at com.google.search.test.SearchTest.clickElementSearched(SearchTest.java:93)
+
+com.google.search.test.SearchTest.clickElementSearched  Time elapsed: 5.279 s  <<< FAILURE!
+java.lang.AssertionError: First element   expected [The Name of the Wind - Wikipedia] but found [The Name of the Wind - Patrick Rothfuss]
+	at com.google.search.test.SearchTest.clickElementSearched(SearchTest.java:93)
+
+com.google.search.test.SearchTest.clickElementSearched  Time elapsed: 30.996 s  <<< FAILURE!
+java.lang.AssertionError: First element   expected [] but found [The Name of the Wind - Wikipedia]
+	at com.google.search.test.SearchTest.clickElementSearched(SearchTest.java:93)
+

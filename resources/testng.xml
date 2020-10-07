@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name = "SUITE_1" parallel="false" verbose="2">
+
+   <test name = "TC_1_SearchTest" verbose="2" group-by-instances="true">
+ 
+       <classes>
+            <class name="com.google.search.test.SearchTest">
+                <methods>
+                    <include name="setup"/>
+                    <include name="search"/>
+                    <include name="clickElementSearched"/>
+                    <include name="clickAuthor"/>
+                    <include name="stopAllDrivers"/>
+                </methods>
+            </class>
+        </classes>
+      
+   </test>
+
+</suite>  
